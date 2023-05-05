@@ -1,0 +1,370 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px 250px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.nav-links li a {
+    padding-left: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.nav-links .browse {
+    color: #993CD2;
+}
+
+.hero-section-container .bg-one-image {
+    width: 100%;
+    height: 650px;
+}
+
+.hero-section-container .vector-img {
+    width: 100%;
+    height: 825px;
+    padding: 75px 100px;
+}
+
+.hero-section-container .hero-image {
+    width: 80%;
+    height: 640px;
+    top: 85px;
+}
+
+.hero-section-container .vector-one {
+    width: 46%;
+    left: 740px;
+    top: 60px;
+}
+
+.hero-section-container .vector-two {
+    right: 320px;
+    top: 700px;
+}
+
+.hero-section-container .vector-three {
+    right: 115px;
+    height: 400px;
+    top: 200px;
+}
+
+.hero-section-container .vector-four {
+    right: 115px;
+    top: 190px;
+}
+
+.hero-section-container .vector-five {
+    right: 115px;
+    top: 550px;
+}
+
+.hero-section-container .vector-six {
+    left: 110px;
+    top: 119px;
+}
+
+.hero-section-container .vector-seven {
+    left: 180px;
+    top: 150px;
+}
+
+.hero-section-container .vector-pack-one {
+    display: flex;
+    flex-direction: column;
+    width: 25px;
+    right: 110px;
+    top: 450px;
+}
+
+.hero-section-container .vector-pack-two {
+    display: flex;
+    flex-direction: column;
+    width: 25px;
+    left: 500px;
+    top: 90px;
+    transform: rotate(90deg);
+}
+
+.hero-details {
+    color: #fff;
+    width: 450px;
+    top: 250px;
+    right: 150px;
+}
+
+.hero-details .hero-topic {
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hero-details .hero-para {
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+button {
+    padding: 8px 20px;
+    transform: skew(-30deg);
+    background-color: #993CD2;
+    color: #fff;
+    border: none;
+    font-size: 0.8em;
+}
+
+.hero-details-para button {
+    margin-left: 65px;
+}
+
+button span {
+    display:inline-block;
+    transform: skew(30deg);
+    text-transform: uppercase;
+    
+}
+
+.topic {
+    display: flex;
+    height: 45px;
+}
+
+.topic-heading {
+    color: #fff;
+    font-size: 2em;
+    width: 700px;
+    margin-left: 300px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.topic-heading img {
+    width: 70%;
+    margin-top: -85px;
+}
+
+.card-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.card-section .card {
+    background-color: #2E1F37;
+    width: 450px;
+    height: 450px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.card-section .card button{
+    position: absolute;
+    bottom: 55%;
+    left: 150px;
+}
+
+.card-section img {
+    width: 420px;
+    height: 300px;
+}
+
+.card-section .card-details {
+    color: #fff;
+    padding: 20px 5px;
+}
+
+.card-section .card-topic {
+    color: #fff;
+    font-size: 1.5em;
+    margin: 16px 0 -10px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card .cover-container {
+    background-color: #201128bc;
+    width: 450px;
+    height: 450px;
+    padding: 10px 15px;
+    margin: -12px 0 -18px -15px;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.card:hover .cover-container {
+    opacity: 1;
+}
+
+.about-us-container .vector-nine {
+    width: 100%;
+    height: 825px;
+    padding: 75px 100px;
+}
+
+.about-us-container .vector-ten {
+    right: 110px;
+    top: 90px;
+}
+
+.about-us-container .vector-eleven {
+    right: 140px;
+    top: 150px;
+}
+
+.about-us-container .vector-twelve{
+    width: 720px;
+    left: 78px;
+    top: 68px;
+}
+
+.about-us-container .vector-thirteen {
+    top: 720px;
+    left: 140px;
+    width: 250px;
+}
+
+.about-us-container .vector-fourteen {
+    top: 710px;
+    left: 120px;
+}
+
+.about-us-container .vector-fifteen {
+    top: 710px;
+    left: 340px;
+}
+
+.about-us-container .women-bg {
+    height: 720px;
+    right: 0px;
+}
+
+.about-us-container .vector-pack-three {
+    top: 720px;
+    left: 300px;
+}
+
+.about-us-container .vector-pack-four {
+    display: flex;
+    flex-direction: column;
+    left: 250px;
+    top: 15px;
+    width: 25px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.about-us-para {
+    color: #fff;
+    margin: 18em 55em 0 10em;
+}
+
+.about-us-para .about-us-topic {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.about-us-para .vector-seventeen {
+    width: 300px;
+    margin: -40px 0 0 -50px;
+}
+
+.topic-one {
+    display: flex;
+    height: 45px;
+    margin-top: 800px;
+}
+
+.topic-one-heading {
+    color: #fff;
+    font-size: 2em;
+    width: 700px;
+    margin-left: 300px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.topic-one-heading img {
+    width: 70%;
+    margin-top: -85px;
+}
+
+.mini-card-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.mini-card-section .mini-card {
+    background-color: #2E1F37;
+    width: 270px;
+    height: 370px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.mini-card-section .mini-card button{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+.mini-card-section img {
+    width: 250px;
+    height: 300px;
+}
+
+.mini-card-section .card-details {
+    color: #fff;
+    padding: 20px 5px;
+}
+
+.mini-card-section .mini-card-topic {
+    color: #fff;
+    font-size: 1.2em;
+    margin: 16px 0 -10px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.mini-card .mini-cover-container {
+    background-color: #201128bc;
+    width: 270px;
+    height: 370px;
+    margin: -345px 0 0 -10px;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.mini-card:hover .mini-cover-container {
+    opacity: 1;
+}
