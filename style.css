@@ -628,15 +628,35 @@ button span {
         width: 100px;
     }
 
-    .card-section .card {
-        width: 300px;
-        height: 400px;
+    .about-us-container .women-bg {
+        display: block;
+    }
+
+    .card-section {
+        width: 840px;
     }
 
     .card-section .card img {
-        width: 300px;
+        height: 250px;
     }
 
+    .card-section .card{
+        padding: 2px;
+        height: 300px;
+        margin-left: 15px;
+    }
 
+    .card-section .card img {
+        width: 245px;
+    }
+
+    .card-section .card-topic {
+        font-size: 1rem;
+        padding-left: 50px;
+    }
+
+    .card-section .card-details {
+        display: none;
+    }
 
 }
