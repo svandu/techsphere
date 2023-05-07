@@ -590,13 +590,14 @@ button span {
 
     .hero-details-para .browse-btn {
         margin-top: 10px;
-        margin-left: 0px;
     }
 
     .about-btn{
-        padding: 10px 50px;
         margin-top: 10px;
+        border: 1px solid red;
+        width: 200px;
     }
+
     .hero-details-para{
         flex-direction: column;
     }
@@ -605,9 +606,26 @@ button span {
         flex-direction: column;
         margin-left: 50px;
     }
+
     .topic .whats-new-heading {
         padding-left: 15px;
-        font-size: 0.4em;
+        font-size: 0.8em;
+        margin-left: -200px;
+        margin-top: -10px;
+    }
+
+    .topic button {
+        margin-top: -50px;
+        width: 400px;
+        padding: 10px 25px;
+    }
+
+    .topic button img {
+        display: none;
+    }
+
+    .topic img {
+        width: 100px;
     }
 
     .card-section .card {
